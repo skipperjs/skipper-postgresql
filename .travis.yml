@@ -17,5 +17,5 @@ deploy:
     secure: CKjzyeveMAZlp7SgCSmaC/TDprD6vP1v2c83Y0SLQLNJeHBFERx4NvPyh5z12uCEuq+QX0xeftx+JJdkaViJHxBaxrAv4+ODwtQj3JVkPhDFDa/ETJu0UnBMR2CEbaAi1I3kny/7lRnG43aQGhmcJ7vTdEAUPL56Z+jHJ1gtHlr1lewGiRZPa9YYj5KMHy33AqENHyyUwqCgefJno3+khnKvCTBYx388nLNxMZBFPMzOunUOjN/2xPuacIYef7plfqHzsztmMmIoZezFtut66Ncms+9hNH1Mcpd0sHYQTQnsinMGVW2HeApl34VuHZXpfCRTNMW8Il/vBUGv+ztRzWaGL4q2PgNlKh0fBoEth9vt/3GiX5bgBByYZUOj//rv8DriHfEwu25eW/SVcQebxUg3TEI+KtMpygtnQ/qxTavHdFxcUPiQd+1ydRmSfDoKxD48Lf6nyG6Pw90HVhm/dDRlAR3xZQMccufag6N8MMEUQPaH1Vay9Tl6hJXDLhmiX+CbtOBMzx6Fy95NL4wVEvjZ0WBIw3SjPEDCDm/TnczRP4u0osZ6Lh9W5FR4P+04PtdeNfXQpsieqp0knz6l2DxUhir5CQke2EaBiOvUSwBMMdhTvX0mnjKse03iy+2FsTN6jux1kvvhmJo3V1PNpSvgdsRg2bYNZGDGWPI36wA=
   on:
     tags: true
-    repo: waterlinejs/skipper-postgresql
+    repo: skipperjs/skipper-postgresql
     all_branches: true
