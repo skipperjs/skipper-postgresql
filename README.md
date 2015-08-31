@@ -13,6 +13,54 @@ Streaming Uploads/Downloads using [Sails.js](http://sailsjs.org) and PostgreSQL.
 $ npm install skipper-postgresql --save
 ```
 
+## Usage
+
+#### `config/skipper.js`
+```js
+module.exports.skipper = {
+  connection: {
+    adapter: require('skipper-postgresql'),
+    connection: {
+      host: 'localhost',
+      user: 'postgres',
+      password: 'postgres'
+    },
+
+    /**
+     * OR
+     *
+    connection: 'postgres://postgres:postgres@localhost:5432/postgres'
+     */,
+
+     /**
+      * table to store files in
+      */
+     fileTable: 'file'
+  }
+}
+```
+
+#### `api/controllers/FileController.js`
+```js
+module.exports = {
+  upload: function (req, res) {
+    req.file('upload').upload(sails.config.skipper, function (err, files) {
+      if (err) return res.negotiate(err);
+
+      res.ok(files)
+    })
+  },
+  download: function (req, res) {
+    var SkipperAdapter = sails.config.skipper.adapter;
+    SkipperAdapter(sails.config.skipper).read(req.param('fd'), function (err, file) {
+      if (err) return res.negotiate(err);
+
+      res.send(new Buffer(file))
+    })
+  }
+}
+```
+
 ## License
 MIT
 
