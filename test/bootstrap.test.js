@@ -11,8 +11,8 @@ setTimeout(function () {
     module: Adapter,
     container: 'skipper-adapter-tests'
   })
+  setTimeout(function () {
+    global.adapter.teardown()
+  }, 60 * 1000);
 }, 5000);
 
-setTimeout(function () {
-  global.adapter.teardown()
-}, 60 * 1000);
