@@ -4,7 +4,7 @@
   "description": "Skipper Adapter for PostgreSQL and Sails",
   "main": "dist/adapter.js",
   "scripts": {
-    "test": "mocha --reporter spec --compiler js:babel/register",
+    "test": "gulp && node test/bootstrap.test.js",
     "prepublish": "gulp"
   },
   "repository": {
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/waterlinejs/skipper-postgresql",
   "devDependencies": {
+    "babel": "^5.8.23",
     "gulp": "^3.9.0",
     "gulp-babel": "^5.2.1",
     "mocha": "^2.2.5",
