@@ -30,7 +30,7 @@
     "gulp": "^3.9.0",
     "gulp-babel": "^5.2.1",
     "mocha": "^2.2.5",
-    "skipper-adapter-tests": "^1.5.3"
+    "skipper-adapter-tests": "skipperjs/skipper-adapter-tests"
   },
   "dependencies": {
     "knex": "^0.8.6",
