@@ -67,11 +67,11 @@ MIT
 ## Maintained By
 ##### [<img src='http://i.imgur.com/zM0ynQk.jpg' height='34px'>](http://balderdash.co)
 
-[npm-image]: https://img.shields.io/npm/v/waterline-postgresql.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/waterline-postgresql
-[ci-image]: https://img.shields.io/travis/waterlinejs/skipper-postgresql/master.svg?style=flat-square
-[ci-url]: https://travis-ci.org/waterlinejs/skipper-postgresql
-[daviddm-image]: http://img.shields.io/david/waterlinejs/skipper-postgresql.svg?style=flat-square
-[daviddm-url]: https://david-dm.org/waterlinejs/skipper-postgresql
-[codeclimate-image]: https://img.shields.io/codeclimate/github/waterlinejs/skipper-postgresql.svg?style=flat-square
-[codeclimate-url]: https://codeclimate.com/github/waterlinejs/skipper-postgresql
+[npm-image]: https://img.shields.io/npm/v/skipper-postgresql.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/skipper-postgresql
+[ci-image]: https://img.shields.io/travis/skipperjs/skipper-postgresql/master.svg?style=flat-square
+[ci-url]: https://travis-ci.org/skipperjs/skipper-postgresql
+[daviddm-image]: http://img.shields.io/david/skipperjs/skipper-postgresql.svg?style=flat-square
+[daviddm-url]: https://david-dm.org/skipperjs/skipper-postgresql
+[codeclimate-image]: https://img.shields.io/codeclimate/github/skipperjs/skipper-postgresql.svg?style=flat-square
+[codeclimate-url]: https://codeclimate.com/github/skipperjs/skipper-postgresql
