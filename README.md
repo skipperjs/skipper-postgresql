@@ -1,4 +1,4 @@
-# <img src="http://i.imgur.com/cty9V02.png"></img> PostgreSQL Adapter
+# <img src="http://i.imgur.com/cty9V02.png" height="36px"></img> PostgreSQL Adapter
 
 [![NPM version][npm-image]][npm-url]
 [![Build status][ci-image]][ci-url]
