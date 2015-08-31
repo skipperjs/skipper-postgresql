@@ -7,3 +7,6 @@ require('skipper-adapter-tests')({
   container: 'skipper-adapter-tests'
 })
 
+setTimeout(function () {
+  adapter.teardown()
+}, 60 * 1000);
