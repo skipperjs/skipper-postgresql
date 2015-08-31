@@ -1,6 +1,6 @@
 {
   "name": "skipper-postgresql",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Skipper Adapter for PostgreSQL and Sails",
   "main": "dist/adapter.js",
   "scripts": {
