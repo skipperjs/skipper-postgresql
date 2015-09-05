@@ -30,7 +30,7 @@ module.exports.skipper = {
      * OR
      *
     connection: 'postgres://postgres:postgres@localhost:5432/postgres'
-     */,
+     */
 
      /**
       * table to store files in
