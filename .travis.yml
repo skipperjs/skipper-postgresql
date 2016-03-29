@@ -1,8 +1,7 @@
 language: node_js
 node_js:
-  - '0.12'
-
-sudo: false
+  - 4
+  - stable
 
 addons:
   postgresql: '9.4'
@@ -19,3 +18,4 @@ deploy:
     tags: true
     repo: skipperjs/skipper-postgresql
     all_branches: true
+    node: stable

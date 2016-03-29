@@ -1,4 +1,4 @@
-# <img src="http://i.imgur.com/cty9V02.png" height="32px"></img> PostgreSQL Adapter
+# skipper-postgreql adapter
 
 [![NPM version][npm-image]][npm-url]
 [![Build status][ci-image]][ci-url]
@@ -18,25 +18,23 @@ $ npm install skipper-postgresql --save
 #### `config/skipper.js`
 ```js
 module.exports.skipper = {
+  adapter: require('skipper-postgresql'),
   connection: {
-    adapter: require('skipper-postgresql'),
-    connection: {
-      host: 'localhost',
-      user: 'postgres',
-      password: 'postgres'
-    },
+    host: 'localhost',
+    user: 'postgres',
+    password: 'postgres'
+  },
 
-    /**
-     * OR
-     *
-    connection: 'postgres://postgres:postgres@localhost:5432/postgres'
-     */
+  /**
+   * OR
+   *
+  connection: 'postgres://postgres:postgres@localhost:5432/postgres'
+   */
 
-     /**
-      * table to store files in
-      */
-     fileTable: 'file'
-  }
+   /**
+    * table to store files in
+    */
+   fileTable: 'file'
 }
 ```
 
@@ -65,7 +63,7 @@ module.exports = {
 MIT
 
 ## Maintained By
-##### [<img src='http://i.imgur.com/zM0ynQk.jpg' height='34px'>](http://balderdash.co)
+[<img src='http://i.imgur.com/Y03Jgmf.png' height='64px'>](http://langa.io)
 
 [npm-image]: https://img.shields.io/npm/v/skipper-postgresql.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/skipper-postgresql
