@@ -12,7 +12,7 @@ setTimeout(function () {
     container: 'skipper-adapter-tests'
   })
   setTimeout(function () {
-    global.adapter.teardown()
-  }, 60 * 1000);
+    process.exit()
+  }, 300 * 1000);
 }, 5000);
 
